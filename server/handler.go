@@ -46,7 +46,7 @@ func UploadFile(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintf(w, "Successfully Uploaded File\n")
+	HomePage(w, r)
 }
 
 func ReadFiles(w http.ResponseWriter, r *http.Request) {
